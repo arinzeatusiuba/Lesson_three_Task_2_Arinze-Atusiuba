@@ -51,3 +51,121 @@ table {
 
 
 /* Write your css below here */
+
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+  }
+  
+  header {
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+  
+  nav {
+	background-color: #333;
+	padding: 10px;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  nav ul li {
+	display: inline;
+  }
+  
+  nav ul li a {
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+  }
+  
+  main {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+  }
+  
+  section {
+	width: 65%;
+	padding: 20px;
+  }
+  
+  aside {
+	width: 25%;
+	padding: 20px;
+	background-color: #f2f2f2;
+	border-radius: 3%;
+   margin-top: 3%;
+   margin-right: 1%;
+  
+	
+  }
+  
+  footer {
+	  /* position: fixed; */
+	  bottom: 0;
+	  height: 1%;
+	  width: 100%;
+	  margin-top: 20px;
+	  padding: 30px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  background-color: #1f204c;
+	  color: white
+  }
+  
+  /* My Responsiveness */
+  /* Desktop Screen: Media Query Size: 992px and above */
+  @media (min-width: 992px) {
+	aside {
+	  width: 25%;
+	}
+  
+	section {
+	  width: 65%;
+	}
+  }
+  
+  /* Tablet Screen: Media Query Size: 768px to 991px */
+  @media (min-width: 768px) and (max-width: 991px) {
+	main {
+	  flex-direction: column;
+	}
+  
+	section {
+	  display: flex;
+	  flex-direction: column;
+	  max-height: 80%;
+	  height: 80%;
+	  margin-bottom: 6vh;
+	}
+  
+	aside {
+	  width: 100vh;
+	  height: 30%;
+	 
+	}
+  }
+  
+  /* Mobile Screen: Media Query Size: 0px to 767px */
+  @media (max-width: 767px)
+  {
+	main {
+	  flex-direction: column;
+	}
+  
+	aside {
+	  width: 70%;
+	  height: 30%;
+	}
+  
+  }
