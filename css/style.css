@@ -6,12 +6,14 @@ body {
   header {
 	background-image:linear-gradient(to right, #000328, #00458e);
 	padding: 20px;
+	width: 100vw;
   
   }
   
   nav {
 	background-image:linear-gradient(to right, #08203e, #557c93);
 	padding: 10px;
+	width: 100vw;
   }
   
   nav ul {
